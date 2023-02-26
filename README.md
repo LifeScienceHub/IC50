@@ -58,7 +58,7 @@ IC50_CPM <- predict(curve_fit, as.data.frame(IC50)) `
 
 `summary(curve_fit) `
 
-## create x values in 10 magnitude interval, get the min and max number of power to the Concentration values
+## create x values in log10 interval, get the min and max number of power to the Concentration values
 
 `n_min = round(log10(min(data_measured$Concentration)), digits=5)
 n_max = round(log10(max(data_measured$Concentration)), digits=5)
