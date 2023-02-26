@@ -95,7 +95,9 @@ glimpse(data_predicted)`
 )`
 
 
-## plot the predicted values from the curve_fit and actual data
+## plot the predicted curve from the curve_fit and the experimental datapoints
+
+- IC50 is also shown in the graph
 
 `p <- ggplot() +
   geom_segment(
