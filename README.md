@@ -128,4 +128,3 @@ glimpse(data_predicted)`
 ` p_resized<- p + theme(axis.text = element_text(size = 12))
 p_resized<- p_resized + theme(axis.title = element_text(size = 12))
 print(p_resized)`
-
