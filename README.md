@@ -4,7 +4,8 @@ The IC50 (half-maximal inhibitory concentration) describes the concentration whi
 
 In this example, the experiment based on a radioligand binding assay using a radioligand, competitor and a target receptor. The competitor (test compound) is analyzed in increasing concentrations, while the radioligand concentration remains constant throughout the whole experiment. Commonly, the binding affinity of the radioligand is well described in the literature. Of note, the experiment can also be perfomed in another set up with for example using absorbance instead of CPM (counts per minute) as measurement output.
 
-The data in the example Excel file is based on a real experiment, I performed in the lab in January 2022.
+The data in the example Excel file is based on a real experiment, I performed in the lab in January 2022. The code was taken in part from [a EC50 determination](https://romanhaa.github.io/blog/dose_response_curve/)
+
 
 Description of the Excel data file:
  - CPM = counts per minute; can also presented by fluorescence or absorbance values measured
