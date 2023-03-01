@@ -1,7 +1,6 @@
 # Determination and plot of IC50s
 ## General description
-The IC50 (half-maximal inhibitory concentration) describes the concentration which is necessary to replace 50% of known drug bound on a target. The IC50 is used to describe binding capacity on a pharmacological target. 
-The resulting IC50 plot is a sigmoidal curve. The vice versa curve is the EC50 (half-maximal effectife concentration). 
+The IC50 (half-maximal inhibitory concentration) describes the concentration which is necessary to replace 50% of known drug bound on a target. The IC50 is used to describe binding capacity on a pharmacological target. The resulting IC50 plot is a sigmoidal curve. The vice versa curve is the EC50 (half-maximal effectife concentration). The code works for IC50 as well as for EC50 determinations.
 
 In this example, the experiment based on a radioligand binding assay using a radioligand, competitor and a target receptor. The competitor (test compound) is analyzed in increasing concentrations, while the radioligand concentration remains constant throughout the whole experiment. Commonly, the binding affinity of the radioligand is well described in the literature. Of note, the experiment can also be perfomed in another set up with for example using absorbance instead of CPM (counts per minute) as measurement output.
 
